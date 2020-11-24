@@ -1,0 +1,114 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Yantramanav', sans-serif;
+    color: #f2eeee;
+    height: 100%;
+}
+
+.landing {
+    padding-top: 1px;
+    background: url(assets/background.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    align-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 200;
+    line-height: 0px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 200;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.logo {
+    width: 250px;
+    justify-self: center;
+}
+
+.maillist {
+    background-color: #f2eeee;
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    justify-self: center;
+    padding: 5px;
+}
+
+.maillist__input {
+    border: none;
+    background-color: #f2eeee;
+    font-size: 18px;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 200;
+    color:#c44c06;
+}
+
+.maillist__button {
+    background-color: #c44c06;
+    color: #f2eeee;
+    border: none;
+    padding: 5px;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.button {
+    background-color: #c44c06;
+    width: 150px;
+    margin: 25px;
+    justify-self: center;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.button a {
+    color: #f2eeee;
+    text-decoration: none;
+}
+
+.features {
+    background-color: #c44c06;
+    height: 100vh;
+    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.appfeatures {
+    align-content: center;
+}
+
+.featurestitle {
+    font-size: 64px;
+    text-align: center;
+}
+
+.featureslist {
+    list-style-type: '- ';
+    font-size: 24px;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 200;
+    line-height: 46px;
+}
+
+.apppictures {
+    width: 90%;
+}
